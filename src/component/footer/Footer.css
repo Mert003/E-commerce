@@ -1,0 +1,100 @@
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.FooterContainer {
+   
+    display: flex;
+    flex-direction: column;
+   
+    text-align: left;
+    
+    background: rgba(0,0,0,0.04);
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.FooterTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.FooterTop h6{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.FooterTopMenu{
+    text-align: left;
+}
+.FooterTopMenu ul{
+    flex-direction: column;
+    text-align: left;
+    align-items: baseline;
+    
+}
+.FooterTopMenu ul li{
+    margin-bottom: 5px;
+    margin-left: 0px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .FooterTopContact{}
+
+.FooterTopSocial{} */
+
+
+
+
+.FooterTopSocial ul li{
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.FooterSearchBar{
+ 
+   
+   width: fit-content;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+
+}
+.FooterSearchBar input{
+    border:none;
+    background: none;
+    
+}
+.FooterSearchBar svg{
+  
+    margin-left: 2px;
+}
+.FooterPaymentOptions{
+    margin-top: 20px;
+}
+.FooterPaymentOptions li {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.FooterPaymentOptions h6{
+    margin-bottom: 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+.FooterTermConditions{
+    margin-top: 20px;
+    font-family: 'Raleway';
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-size: 9px;
+}

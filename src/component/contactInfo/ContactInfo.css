@@ -1,0 +1,12 @@
+.ContactInfoContainer{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.ContactInfoContainer p{
+    color: gray;
+    font-size: small;
+}
+

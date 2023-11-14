@@ -1,0 +1,14 @@
+.Carouselflowers{
+    box-sizing: content-box;
+    
+   
+
+    
+}
+
+.Carouselflowers img{
+    object-fit: cover;
+    object-position: center;
+    height: 75vh;
+    
+}

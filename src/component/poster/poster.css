@@ -1,0 +1,19 @@
+.posterContainer{
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    position: relative;
+    text-align: center;
+}
+.posterContainer img{
+    width: 80%;
+    object-fit: contain;
+    object-position: center;
+}
+.posterContainer h4{
+    font-family: Arial , sans-serif;
+    position: absolute;
+    bottom:5px;
+    right: 15%;
+    color: white;
+}

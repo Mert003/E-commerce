@@ -1,0 +1,36 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2px;
+    width: 98%;
+    padding-left: 5px;
+    padding-right: 15px;
+    padding-top:15px;
+    padding-bottom: 15px;
+      
+   
+
+}
+ul{
+    list-style: none;  
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   
+}
+li{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.leftbar img{
+    width: 2rem;
+}
+
+
